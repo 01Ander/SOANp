@@ -5,18 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOAN Accesories</title>
+    <style>
+        *{
+            background-color: cyan;
+        }
+        .p3{
+            color: coral;
+        }
+        #moda{
+            background-color: beige;
+            color: darkblue;
+        }
+        a[href="https://platzi.com/clases/1557-git-github/19942-uso-de-github/"]{
+            font: arial;
+        }
+        ul li{
+            background-color: darkslateblue;
+        }
+        article p{
+            color: rgb(11, 167, 32);
+            font: verdana;
+        }
+        div+texto2{
+            color: rgb(104, 47, 10);
+        }
+        p.externo{
+            background-color: black;
+            color: antiquewhite;
+        }
+        h3.contacto{
+            font-variant: small-caps;
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <h1>Las mejores artesanias que encontras</h1>
-        <p>Hechas con amor</p>
-        <ul>
-            <li>Collares</li>
-            <li>Gargantillas</li>
-            <li>Aretes</li>
-            <li>Anillos</li>
-            <li>Manillas</li>
-        </ul>
-    </section>
+    <header>
+        <h1>Las <em>mejores</em> artesanias que encontraras</h1>
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <li>Collares</li>
+                <li>Gargantillas</li>
+                <li>Aretes</li>
+                <li>Anillos</li>
+                <li>Manillas</li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h2>Nuestro blog</h2>
+        <p class="externo">la seleccion</p>
+        <article>
+            <h3>Nuestros recomendados</h3>
+            <p class="texto">Gargantilla inspirada en los atardeceres colombianos</p>       
+            <div class="texto2">Las clases no funcionan en texto?</div>    
+        </article>
+        <article id="moda">La moda de verano que debes probar</article>
+        <article>
+            <h3>Nuestra isnpiracion</h3>
+            <img src="https://images.pexels.com/photos/349758/hummingbird-bird-birds-349758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Colibri">
+            <p class="texto">Las avez que mejor representan los colores de nuestra naturaleza</p>
+            <div>Los mejores colores que puedas imaginar</div>
+        </article>
+        <div>
+            <h3 class="contacto">Contactanos</h3>
+            <form action="">
+                <div>
+                    <label for="name">Tu nombre</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Tu correo</label>
+                    <input type="text" id="email">
+                </div>
+                <div>
+                    <label for="comment">Tu comentario</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10">Comenta</textarea>
+                
+                <div>
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+    </main>
+    <footer>
+        <p>Marca registrada (pronto)</p>
+        <a href="https://platzi.com/clases/1557-git-github/19942-uso-de-github/">Importante</a>
+    </footer>
 </body>
 </html>
