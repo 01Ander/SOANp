@@ -36,6 +36,15 @@
         h3.contacto{
             font-variant: small-caps;
         }
+        input:focus{
+            background-color: darkgray;
+        }
+        .button{
+            background-color: pink;
+        }
+        .button:hover{
+            background-color: gold;
+        }
     </style>
 </head>
 <body>
@@ -84,7 +93,7 @@
                     <textarea name="comment" id="comment" cols="30" rows="10">Comenta</textarea>
                 
                 <div>
-                    <input type="button" value="Enviar">
+                    <button class="button">Envia</button>
                 </div>
             </form>
     </main>
