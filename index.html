@@ -19,9 +19,6 @@
         a[href="https://platzi.com/clases/1557-git-github/19942-uso-de-github/"]{
             font: arial;
         }
-        ul li{
-            background-color: darkslateblue;
-        }
         article p{
             color: rgb(11, 167, 32);
             font: verdana;
@@ -45,23 +42,49 @@
         .button:hover{
             background-color: gold;
         }
+        .menu{
+            display: flex;
+            background-color: blanchedalmond;
+            width: auto;
+            height: 50px;
+            align-items: stretch;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+        .menuItem{
+            display: block;
+            list-style-type: none;
+            flex: 0 1 auto;
+        }
+
     </style>
 </head>
 <body>
     <header>
         <h1>Las <em>mejores</em> artesanias que encontraras</h1>
     </header>
-    <aside>
         <nav>
-            <ul>
-                <li>Collares</li>
-                <li>Gargantillas</li>
-                <li>Aretes</li>
-                <li>Anillos</li>
-                <li>Manillas</li>
-            </ul>
+            <div class="menu">
+                <ul>
+                    <li class="menuItem">
+                        <div>Collares</div>
+                    </li>
+                    <li class="menuItem">
+                        <div>Gargantillas</div>
+                    </li>
+                    <li class="menuItem">
+                        <div>Aretes</div>
+                    </li>
+                    <li class="menuItem">
+                        <div>Anillos</div>
+                    </li>
+                    <li class="menuItem">
+                        <div>Manillas</div>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </aside>
     <main>
         <h2>Nuestro blog</h2>
         <p class="externo">la seleccion</p>
