@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-family: 'Roboto', sans-serif;
+            font-size: 62.5%;
+        }
+        nav{
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            background-color: lightskyblue;
+            top: 0;
+            z-index: 6;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            height: 765px;
+            background: rgb(228,250,255);
+            background: linear-gradient(180deg, rgba(228,250,255,1) 0%, rgba(156,220,238,1) 100%);
+            margin-top: 60px;
+            align-items: center;
+            justify-content: center;
+        }
+        .target{
+            width: 620px;
+            height: 500px;
+            background-color: white;
+            border-radius: 10%;
+            overflow: hidden;
+            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.164);
+        }
+        .headerTarget{
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: cornflowerblue;
+            overflow: hidden;
+        }
+        #colibri{
+            width: 100%;
+            position: relative;
+            top:-80px;  
+        }
+        .info{
+            width: 100%;
+            height: 300px;
+            position: relative;
+            background-color: rgb(215, 237, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo{
+            width: 16rem;
+            height: 16rem;
+            background-color: white;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: -80px;
+        }
+        .info .logo img{
+            width: 100%;
+        }
+        .datos h1{
+            font-size: 4.0rem;
+            font-weight: 700;
+            margin-top: 120px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        .datos h3{
+            font-size: 3rem;
+            font-weight: 700;
+            margin-top: 20px;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #707070;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+    </nav>
+    <main>
+        <section class="main">
+            <section class="target">
+                <section class="headerTarget">
+                    <img src="https://images.pexels.com/photos/826410/pexels-photo-826410.jpeg" alt="colibri" id="colibri"></img>
+                </section>
+                <section class="info">
+                    <section class="logo">
+                        <img src="https://scontent.fbog10-1.fna.fbcdn.net/v/t1.6435-9/100906635_163310821833901_4211977957926764544_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CpgCEox-ctgAX-EmlI_&_nc_ht=scontent.fbog10-1.fna&oh=00_AT8_mRtD7A4DaNpaSYUzYLGkJ6RmlOzU017BSxNCABhxPA&oe=62DBDA60" alt="logo">
+                    </section>
+                    <section class="datos">
+                        <h1>SOAN Accesorios</h3>
+                        <h3>Bogota Colombia</h3>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+
+</body>
+</html>
