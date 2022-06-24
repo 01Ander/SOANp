@@ -6,33 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            right: 0;
+        }
         .containA{
             position: relative;
-            background-color: aqua;
+            background: rgb(13,126,158);
+            background: linear-gradient(90deg, rgba(13,126,158,1) 0%, rgba(219,247,252,1) 100%);
             width: 800px;
             height: 800px;
+            border-radius: 50%;
+            margin-top: 65px;
         }
         .containB{
             position: absolute;
-            background-color: bisque;
+            background: rgb(230,164,164);
+            background: linear-gradient(90deg, rgba(230,164,164,1) 0%, rgba(231,32,10,1) 100%);
             width: 50%;
             height: 50%;
             right: 0;
+            top: 25%;
+            border-radius: 50%;
         }
         .containC{
             position: absolute;
-            background-color: cadetblue;
+            background: rgb(179,230,164);
+            background: linear-gradient(90deg, rgba(179,230,164,1) 0%, rgba(66,231,10,1) 100%);
             width: 50%;
             height: 50%;
-            bottom: 0;
-            right: 0;
+            bottom: 0%;
+            right: 25%;
+            border-radius: 50%;
         }
         .containD{
             position: absolute;
-            background-color: darkkhaki;
+            background: rgb(230,164,226);
+            background: linear-gradient(90deg, rgba(230,164,226,1) 0%, rgba(221,10,231,1) 100%);
             width: 50%;
             height: 50%;
-            bottom: 0;
+            right: 50%;
+            top: 25%;
+            border-radius: 50%;
         }
         nav{
             position: fixed;
@@ -40,6 +54,7 @@
             height: 60px;
             background-color: lightskyblue;
             top: 0;
+            z-index: 6;
         }
     </style>
 </head>
